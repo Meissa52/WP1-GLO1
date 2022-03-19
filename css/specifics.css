@@ -1,0 +1,18 @@
+body {
+	background-color: orange;
+}
+
+#timer {
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.modal {
+  max-height: 90%;
+}
+
+#dormLoc {
+	max-height: 30%;
+	max-width: 30%
+}

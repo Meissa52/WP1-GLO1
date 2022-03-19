@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  	<link rel="stylesheet" type="text/css" href="css/specifics.css">
+
+  	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.js"></script>
+	<script type="text/javascript" src="js/init.js"></script>
+	<script type="text/javascript" src="js/countdown.js"></script>
+	<script type="text/javascript" src="js/modalonload.js"></script>
+
+	<title>Alfred Fall Festivities</title>
+</head>
+
+<body>
+	<nav class="orange">
+		<div class="nav-wrapper">
+			<a id="logo-container" href="http://www.alfredstate.edu/" class="brand-logo center">
+				<img class="responsive-img" src="images/asc_logonew2.png">
+			</a>
+
+			<ul>
+				<li><a href="index.html"><b>Home</b></a></li>
+				<li><a href="calc.html"><b>Time Calculator</b></a></li>
+				<li><a href="tips.html"><b>Saftey Tips</b></a></li>
+				<li class="right"><a href="external.html"><b>External Links</b></a></li>
+			</ul>
+		</div>
+	</nav>
+
+    <div class="parallax-container">
+      <div class="parallax"><img src="images/trees_banner3.jpg"></div>
+    </div>
+
+	<div class="container">
+		<div class="section">
+
+			<div class="row">
+				<div>
+					<h4>Fall Festivities 2018</h4>
+					<p class="flow-text col s8" id="general">This is the beginning of the 2018 Fall semester at Alfred State College. Continuing students may already be familiar with these fall activities, but this will serve as a refresher for the students who forgot and news for first semester students. Remember there is only so much time until the end of the fall season, so have as much fun as you can while studying hard! Us faculty at Alfred State college have create this site to help relay the information about these events to help ease the stress you may be facing in classes. Also, be sure to visit our safety page for tips on keeping yourself and others safe this fall semester.</p>
+				</div>
+
+				<div>
+					<h5 class="center">Time Until End of Fall</h5>
+					<p id="timer" class="center col s4"></p>
+				</div>
+
+				<div>
+					<h5 class="center">Your Dorm Location</h5>
+					<img id="dormLoc" src="images/mac_complex.png">
+				</div>
+
+
+
+			</div>
+		</div>
+	</div>
+
+	<div id="myModal" class="modal">
+    	<div class="modal-content">
+      		<h4>Just a few questions...</h4>
+      		<p>Please answer these questions so you could help us serve you with better information.</p>
+
+      		<h5>Please enter your name</h5>
+      		<div class="input-field col s6">
+          		<input id="first_name" type="text" class="validate">
+          		<label for="first_name">First Name</label>
+        	</div>
+        	<div class="input-field col s6">
+          		<input id="last_name" type="text" class="validate">
+          		<label for="last_name">Last Name</label>
+        	</div>
+
+        	<h5>Please enter your identification number</h5>
+        	<div class="input-field col s8">
+          		<input id="idNum" type="text" class="validate">
+          		<label for="idNum">800875117</label>
+        	</div>
+
+        	<h5>Please select your the building you dorm in</h5>
+        	<div class="input-field col s12">
+    			<select>
+      				<option value="" disabled selected>Choose your option</option>
+      				<option value="1">Braddon Hall</option>
+				    <option value="2">Burdick Hall</option>
+				    <option value="3">Getman Hall</option>
+				    <option value="4">Mackenzie Complex</option>
+				    <option value="5">Main Gate A</option>
+				    <option value="6">Main Gate B</option>
+				    <option value="7">Peet Hall</option>
+				    <option value="8">Robinson/Champlin Hall</option>
+				    <option value="9">Shults Hall</option>
+    			</select>
+    			<label>Buildings</label>
+  			</div>
+    	</div>
+    	<div class="modal-footer">
+      		<a href="#!" class="modal-close waves-effect waves-red btn-flat">Cancel</a>
+      		<a href="#!" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+    	</div>
+	</div>
+
+	<!-- This Calendar Sucks -->
+	<div class="container center">
+		<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=iq9b638hsvsuj6fverq20pii3o%40group.calendar.google.com&amp;color=%23853104&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+	</div>
+
+
+<!--
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.js"></script>
+	<script type="text/javascript" src="js/init.js"></script>
+	<script type="text/javascript" src="js/countdown.js"></script>
+-->
+</body>
+</html>

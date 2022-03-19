@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  	<link rel="stylesheet" type="text/css" href="css/specifics.css">
+
+  	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.js"></script>
+	<script type="text/javascript" src="js/init.js"></script>
+	<script type="text/javascript" src="js/countdown.js"></script>
+	<script type="text/javascript" src="js/modalonload.js"></script>
+
+	<title>Time Calculator</title>
+</head>
+<body>
+
+	<nav class="orange">
+		<div class="nav-wrapper">
+			<a id="logo-container" href="http://www.alfredstate.edu/" class="brand-logo center">
+				<img class="responsive-img" src="images/asc_logonew2.png">
+			</a>
+
+			<ul>
+				<li><a href="index.html"><b>Home</b></a></li>
+				<li><a href="calc.html"><b>Time Calculator</b></a></li>
+				<li><a href="tips.html"><b>Saftey Tips</b></a></li>
+				<li class="right"><a href="external.html"><b>External Links</b></a></li>
+			</ul>
+		</div>
+	</nav>
+
+    <div class="parallax-container">
+      <div class="parallax"><img src="images/trees_banner3.jpg"></div>
+    </div>
+
+    <div class="container">
+    	<form action="#" class="">
+    		<h4>Fall Time Management calculator</h4>
+      		<p>To use this calculator, please enter the amount of hours that you peform each task each day. Depending on your answers we will give you a response with possible tips that could possably help you improve your school work while still saving some time for other activities.</p>
+      		<p>Please make sure all your activities add up to a 24 hour day. For some questions 0 is an acceptable answer.</p>
+
+      		<h5>How many hours of sleep do you get per night?</h5>
+      		<div class="input-field col s6">
+          		<input id="hrsSleep" type="number" class="validate" min="1" max="24">
+          		<label for="hrsSleep">Please enter a number between 1 and 24</label>
+        	</div>
+        	<h5>How many hours do you study per day?</h5>
+        	<div class="input-field col s6">
+          		<input id="hrsStudy" type="number" class="validate" min="0" max="24">
+          		<label for="hrsStudy">Please enter a number between 1 and 24</label>
+        	</div>
+
+        	<h5>How many hours do you spend hanging out with friends?</h5>
+        	<div class="input-field col s8">
+          		<input id="hrsFriends" type="number" class="validate" min="1" max="24">
+          		<label for="hrsFriends">Please enter a number between 1 and 24</label>
+        	</div>
+
+        	<h5>How many hours do you spend in the gym?</h5>
+        	<div class="input-field col s8">
+          		<input id="hrsGym" type="number" class="validate" min="0" max="24">
+          		<label for="hrsGym">Please enter a number between 1 and 24</label>
+        	</div>
+
+        	<h5>How long do you spend on activites outside of school? (Hobbies, games, parties, etc.)</h5>
+        	<div class="input-field col s8">
+          		<input id="hrsHobbies" type="number" class="validate" min="1" max="24">
+          		<label for="hrsHobbies">Please enter a number between 1 and 24</label>
+        	</div>
+
+        	<div class="container">
+        		<div class="row">
+        			<input class="col s3" type="reset" value="Reset">
+        			<input class="col s3" type="submit" value="Submit">
+        		</div>
+        	</div>
+        </form>
+    </div>
+
+</body>
+</html>
